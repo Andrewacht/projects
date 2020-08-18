@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to bottom, #00ffff, #00008b);" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.gui.scenes.Rekeningen.Betaal.Opnemen">
+    <children>
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true" style="-fx-blend-mode: blue;">
+            <image>
+                <Image url="@../../Cisco.png" />
+            </image>
+        </ImageView>
+        <Button layoutX="517.0" layoutY="360.0" mnemonicParsing="false" onAction="#logout" text="Uitloggen" />
+        <Button alignment="CENTER" layoutX="51.0" layoutY="23.0" mnemonicParsing="false" onAction="#Honderd" prefHeight="100.0" prefWidth="125.0" style="-fx-background-color: Lightblue;" text="100">
+            <font>
+                <Font size="30.0" />
+            </font></Button>
+        <Button alignment="CENTER" layoutX="51.0" layoutY="187.0" mnemonicParsing="false" onAction="#Twintig" prefHeight="100.0" prefWidth="125.0" style="-fx-background-color: Lightblue;" text="20">
+            <font>
+                <Font size="30.0" />
+            </font></Button>
+        <Button fx:id="maxSaldo" alignment="CENTER" layoutX="425.0" layoutY="187.0" mnemonicParsing="false" onAction="#maxSaldo" style="-fx-background-color: Lightblue;">
+            <font>
+                <Font size="30.0" />
+            </font></Button>
+        <Button alignment="CENTER" layoutX="425.0" layoutY="23.0" mnemonicParsing="false" onAction="#Vijftig" prefHeight="100.0" prefWidth="125.0" style="-fx-background-color: Lightblue;" text="50">
+            <font>
+                <Font size="30.0" />
+            </font></Button>
+        <Label fx:id="rSpaarSaldo" alignment="CENTER" layoutX="215.0" layoutY="190.0" prefHeight="58.0" prefWidth="169.0">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Label>
+        <Label fx:id="rBetaalSaldo" alignment="CENTER" layoutX="215.0" layoutY="44.0" prefHeight="58.0" prefWidth="169.0">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Label>
+        <Button layoutX="375.0" layoutY="360.0" mnemonicParsing="false" onAction="#Terug" text="Terug" />
+    </children>
+</AnchorPane>

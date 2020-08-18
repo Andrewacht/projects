@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to bottom, #00ffff, #00008b);" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.gui.scenes.Login">
+    <children>
+        <TextField editable="false" layoutX="21.0" layoutY="60.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="98.0" prefWidth="578.0" style="-fx-font: 40px Tahoma; -fx-text-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, black 0%, blue 50%); -fx-background-color: none;" text="Welcome the Bank of Cisco" />
+
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true" style="-fx-blend-mode: blue;">
+            <image>
+                <Image url="@Cisco.png" />
+            </image>
+        </ImageView>
+      <PasswordField fx:id="txtPassword" layoutX="236.0" layoutY="187.0" promptText="Pincode" />
+      <Button layoutX="333.0" layoutY="235.0" mnemonicParsing="false" onAction="#loginCheck" text="Log in" />
+      <Label fx:id="lblLabel" layoutX="236.0" layoutY="213.0" prefHeight="18.0" prefWidth="150.0" />
+      <Label fx:id="Timer" layoutX="236.0" layoutY="273.0" prefHeight="18.0" prefWidth="357.0" />
+
+
+    </children>
+
+
+</AnchorPane>

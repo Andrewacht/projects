@@ -1,0 +1,16 @@
+right: 95
+left: 85
+
+calculateminvalue:
+-85
+
+calculatemaxvalue:
+180-95
+
+defaultValue = lowest of them both
+
+speed modifiers:
++0.01: 
++0.02:
++0.07:
+approx 7 settings

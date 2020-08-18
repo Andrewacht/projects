@@ -1,0 +1,44 @@
+Enquete Arcade 64!
+
+Wij zijn projectgroep Arcade64. Wij hebben het idee een arcade machine te maken.
+Ons idee is het maken van simpele games als snake, tetris, pong, etc.
+Dit willen wij gaan doen met een joystick of simpele pijltjes toetsen als besturing.
+De highscores worden opgeslagen en verwerkt in een leaderboard!
+
+We are Arcade64. Our idea is to create an arcade machine in our own way.
+We plan on making popular games like snake, tetris, pong and give our own twist to it.
+The controller we want to use is available in a joystick-and a arrow buttons version.
+Highscores will be saved in a leaderboard!
+
+What is your age:
+	- 10 to 20
+	- 20 to 30
+	- 30 to 40
+	- 40 to 50
+	- 50+
+
+What do you think of old games like snake, pong and tetris?
+	- amazing
+	- good
+	- alright
+	- bad
+	- terrible
+
+What do you think of the idea to add a multiplayer function to old games?
+	- amazing
+	- good
+	- alright
+	- bad
+	- terrible
+
+What do you think of a leaderboard-system in old games?
+	- amazing
+	- good
+	- alright
+	- bad
+	- terrible
+
+Should the leaderboard-system be local or online? 
+	- local
+	- online
+	- both, local leaderboards and online leaderboards

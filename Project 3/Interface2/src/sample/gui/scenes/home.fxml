@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to bottom, #00ffff, #00008b);" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.gui.scenes.Home">
+    <children>
+        <Button layoutX="517.0" layoutY="360.0" mnemonicParsing="false" onAction="#logout" text="Uitloggen" />
+        <TextField layoutX="21.0" layoutY="60.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="98.0" prefWidth="578.0" style="-fx-font: 40px Tahoma; -fx-text-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, black 0%, blue 50%); -fx-background-color: none;" text="Welcome the Bank of Cisco" />
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true" style="-fx-blend-mode: blue;">
+            <image>
+                <Image url="@Cisco.png" />
+            </image>
+        </ImageView>
+      <Label fx:id="balanceB" layoutX="476.0" layoutY="158.0" prefHeight="38.0" prefWidth="82.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="balanceS" layoutX="476.0" layoutY="218.0" prefHeight="38.0" prefWidth="82.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="62.0" layoutY="164.0" mnemonicParsing="false" onAction="#rBetaal" style="-fx-background-color: none;" text="Betaal Rekening" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="62.0" layoutY="217.0" mnemonicParsing="false" onAction="#rSpaar" style="-fx-background-color: none;" text="Spaar Rekening" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

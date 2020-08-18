@@ -1,0 +1,32 @@
+Arcade RGB Matrix
+	besturing los te koppelen
+		- joystick
+		- pijltjes
+	
+Meerdere games
+		- Nano als 'gamedisk'
+		- GUI
+		- SD kaart
+
+	Games
+		- bomberman
+		- pacman
+		- space invaders
+		- pong 1v1 en 1v1v1v1
+		- snake
+		- 4 op een rij
+		- zeeslag
+		- memory
+		- templerun
+		- tetris
+			* om de beurt
+			* zelfde speelveld, apart spel, tegelijkertijd
+
+
+Architectuur
+security
+veel onderzoek doen
+robuustheid
+functionaliteit
+uitbreidbaarheid
+bruikbaarheid
